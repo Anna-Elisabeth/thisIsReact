@@ -1,0 +1,27 @@
+[
+    {
+        "breed": " Supersonic",
+        "size": " Large",
+        "averageLifeSpan": 30
+        
+    },
+
+    {
+        "breed": " Tinysonic",
+        "size": " Smarge",
+        "averageLifeSpan": 10
+        
+    },
+
+    {
+        "breed": " Basicsonic",
+        "size": " Twarge",
+        "averageLifeSpan": 100
+        
+    }
+
+]
+
+
+
+
