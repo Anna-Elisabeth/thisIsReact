@@ -5,64 +5,46 @@ import ManyButtons from './components/ManyButtons';
 import monkeys from './Data/monkeys.json';
 import Counter from './components/Counter';
 import KingSolution from './components/KingSolution';
+import Car from './components/Car';
+import KingSolution2 from './components/KingSolution2';
+import CatFacts from './components/CatFacts';
+import PostRequest from './components/PostRequest';
 
 
 
 function App() {
-  console.log(monkeys);
-
-  const monkeyComponents = [];
-
-  for (const monkey of monkeys) {
-
-    console.log("monkey:", monkeys);
-    monkeyComponents.push(
-      <Monkey breed={monkey.breed} size={monkey.size} averageLifeSpan={monkey.averageLifeSpan}
-
-
-
-
-      />
-    )
-  }
-
+  
+  
 
 
 
   return (
     <div className="App">
-      <KingSolution/>
-
-      {/* <h1>42 IS THE ANSWER TO EVERYTHING</h1>
-
-      
-
-      
-
-        <Counter />
-        <div>
-
-     <h1>ALL ABOUT MONKIES</h1>
 
 
-          <input placeholder='tell us what you like about monkeys'></input>
-
-          {monkeyComponents}
-
-          <Monkey breed=' Large Monkey' size=' Very Large' averagelifespan=' 200 years' />
 
 
-          <img src="https://cdn.images.express.co.uk/img/dynamic/1/285x214/256851_1.jpg" width={550} ></img>
+<h1>THE ANSWER TO EVERYTHING IS 42</h1>
 
-          <br></br>
+<button onClick={() => alert ("Not all can teach")}>
 
-        </div>
+clickyclicky
 
-        <div>
-          <h2>Little Piggies</h2>
-          <ManyButtons />
-        </div>
-       */}
+</button>
+
+
+
+{/* <PostRequest/> */}
+
+{/* <CatFacts/> */}
+  
+ 
+ {/* <KingSolution2/>  */}
+
+
+      {/* <Car/> */}
+
+      {}
 
 
     </div>
