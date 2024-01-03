@@ -16,6 +16,12 @@ console.log(monkeys);
     )
   } ////
 
+  <button onClick={() => alert ("Not all can teach")}>
+
+clickyclicky
+
+</button>
+
 
 ////
   <input type="text" />
