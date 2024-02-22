@@ -1,33 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-import ListGroup from './components/ListGroup';
+
+
+
+import Navbar from './components/Ninja project/Navbar';
+import Home from './components/Ninja project/Home';
+import HomeAxios from './components/Ninja project/HomeAxios';
 
 
 
 function App() {
   
-  
-
-
-
-  return (
-    <div>
-
-<ListGroup/>
-
-
-{/* <PostRequest/> */}
-
-{/* <CatFacts/> */}
-  
  
- {/* <KingSolution2/>  */}
 
+return (
+    <div className='App'>
+      <Navbar/>
+      <div className='content'>
+{/* <Home/> */}
+<HomeAxios/>
 
-      {/* <Car/> */}
-
-      {}
-
+      </div>
 
     </div>
 

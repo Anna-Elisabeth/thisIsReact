@@ -1,0 +1,23 @@
+{
+    "blogs": [
+
+        {
+            "title": "Life in the country", 
+            "body": "Worms, birds, badgers...", 
+            "author": "Woody", 
+            "id": 1
+        },
+        {
+            "title": "Painting in oils", 
+            "body": "All kinds of colours are required to apppaint in oils with passion und so weiter und so weiter", 
+            "author": "Woody", 
+            "id": 2
+        },
+        {
+            "title": "Magic spells", 
+            "body": "Acrabrdabra is one of the most amazxing amgic spell sin all teh oworld and so oif nicclypoopsikins", 
+            "author": "Witchy", 
+            "id": 3
+        }
+    ]
+}
